@@ -110,7 +110,7 @@ img {
   padding-top: 60px;
 }
 
-.contents_02 .deco {
+.deco {
   width: 132px;
   height: 22px;
   margin: 27px 734px;
@@ -120,6 +120,9 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-right: 320px;
+  padding-left: 320px;
+  margin-top: 28px;
 }
 
 .contents_02 .items .item {
@@ -160,4 +163,37 @@ img {
   border: none;
   cursor: pointer;
   margin-top: 30px;
+}
+
+/* //////////contents_03////////// */
+.contents_03 {
+  margin: 0 a;
+}
+
+.contents_03 h1 {
+  text-align: center;
+  font-size: 38px;
+  padding-top: 60px;
+}
+
+.contents_03 a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contents_03 a img {
+  width: 40px;
+  height: 40px;
+}
+
+.contents_03 .slide {
+  width: 1040px;
+  margin: 0 auto;
+}
+
+.contents_03 .slide img {
+  width: 200px;
+  height: 200px;
+  margin-left: 53px;
 }
