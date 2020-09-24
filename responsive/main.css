@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+/* 글자 중앙정렬 */
+div,
+li {
+  position: relative;
+}
+
+/* 글자 중앙정렬 */
+h4 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* header */
+.header {
+  height: 70px;
+  background: #aeaeae;
+}
+
+/* slide */
+.slide {
+  height: 600px;
+  background: #c4c4c4;
+  margin-bottom: 40px;
+}
+
+.section {
+  max-width: 1160px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* content_01 */
+.content_01 li {
+  width: 560px;
+  height: 300px;
+  background: #e1e1e1;
+}
+
+/* content_02 */
+.content_02 li {
+  width: 360px;
+  height: 200px;
+  background: #f0f0f0;
+}
+
+/* banner */
+.banner {
+  height: 400px;
+  background: #c4c4c4;
+  margin-bottom: 40px;
+}
+
+/* content_04 */
+.content_04 li {
+  width: 260px;
+  height: 260px;
+  background: #e1e1e1;
+  margin-bottom: 40px;
+}
+
+.content_04 li:nth-child(5),
+.content_04 li:nth-child(6),
+.content_04 li:nth-child(7),
+.content_04 li:nth-child(8) {
+  margin-bottom: 0;
+}
+
+/* content_05 */
+.banner_02 {
+  height: 300px;
+  background: #f0f0f0;
+}
+
+/* footer */
+.footer {
+  height: 400px;
+  background: #aeaeae;
+}
