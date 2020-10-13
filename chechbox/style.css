@@ -1,0 +1,28 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+} */
+
+div {
+  padding: 10px 0;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="checkbox"] + label {
+  display: inline-block;
+  height: 20px;
+  background: url("./test/images/check_img.png") no-repeat 0 0;
+  background-size: 20px 40px;
+  padding-left: 30px;
+}
+
+input[type="checkbox"]:checked + label {
+  background-position: 0 -20px;
+}
+
+@media (max-width);
